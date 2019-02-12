@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:checkableBehavior="single" />
+        <item android:id="@+id/home"
+             android:icon="@drawable/mian_home_select"
+            android:checked="true"
+            android:title="主页"></item>
+
+    <item
+        android:id="@+id/hot"
+        android:icon="@drawable/main_hot_selecter"
+        android:title="热门" />
+    <item
+        android:id="@+id/tixi"
+        android:icon="@drawable/main_tixi_selecter"
+        android:title="体系" />
+
+    <item android:id="@+id/project"
+        android:icon="@drawable/mian_project_selecter"
+        android:title="项目"/>
+
+    <item android:id="@+id/mine"
+        android:icon="@drawable/main_mine_selecter"
+        android:title="我的"/>
+
+</menu>
