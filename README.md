@@ -3,6 +3,7 @@
 
 1.首先在登录时集成了第三方友盟的登QQ快捷登陆
 2.使用了一些开源控件迅速搭建界面
+3.集成百度地图
  //必须使用
     implementation 'com.lzy.net:okgo:3.0.4'
     implementation 'com.alibaba:fastjson:1.1.67.android'

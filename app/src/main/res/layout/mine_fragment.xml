@@ -2,11 +2,56 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="hello minefragment"/>
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/dp_40"
+        android:gravity="center">
+<com.wulei.demo.application.ui.activity.CircleImageView
+    android:id="@+id/mine"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:layout_marginTop="10dp"
+    android:src="@mipmap/guide1"
+  />
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:text="用户姓名"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+    <Button
+        android:id="@+id/baidumap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_selecter"
+        android:hint="打开地图"/>
+
+    <Button
+        android:id="@+id/currentmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:background="@drawable/btn_selecter"
+        android:hint="显示当前位置"/>
+    </LinearLayout>
 </LinearLayout>
